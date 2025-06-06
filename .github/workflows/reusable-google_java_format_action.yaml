@@ -1,18 +1,20 @@
-name: Format
+name: Reusable Google Java Format
 
 on:
-  push:
-    branches:
-      - "**"
+  workflow_call: # reusable workflow용 설정
 
 permissions:
   contents: write
-  
+
 jobs:
   formatting:
+    name: Format Java Code  # ✅ Job 이름 추가
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4 # v2 minimum required
-      - uses: axel-op/googlejavaformat-action@v4
+      - name: Checkout repository  # ✅ Step 이름 추가
+        uses: actions/checkout@v4
+
+      - name: Run google-java-format  # ✅ Step 이름 추가
+        uses: axel-op/googlejavaformat-action@v4
         with:
           args: "--replace"
