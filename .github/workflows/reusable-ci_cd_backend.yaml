@@ -1,4 +1,4 @@
-name: Reusable Build and Deploy Workflow for Backend
+name: Reusable CI/CD Workflow for Backend
 
 on:
   workflow_call:
