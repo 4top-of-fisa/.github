@@ -1,0 +1,3 @@
+[submodule "paydeuk_web"]
+	path = paydeuk_web
+	url = https://github.com/4top-of-fisa/paydeuk_web.git
