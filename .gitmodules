@@ -1,3 +1,24 @@
 [submodule "paydeuk_web"]
 	path = paydeuk_web
 	url = https://github.com/4top-of-fisa/paydeuk_web.git
+[submodule "paydeuk_coupang"]
+	path = paydeuk_coupang
+	url = https://github.com/4top-of-fisa/paydeuk_store.git
+[submodule "paydeuk_web_module"]
+	path = paydeuk_web_module
+	url = https://github.com/4top-of-fisa/paydeuk_web_module.git
+[submodule "paydeuk_server_service"]
+	path = paydeuk_server_service
+	url = https://github.com/4top-of-fisa/paydeuk_server_service.git
+[submodule "paydeuk_server_module"]
+	path = paydeuk_server_module
+	url = https://github.com/4top-of-fisa/paydeuk_server_module.git
+[submodule "paydeuk_server_auth"]
+	path = paydeuk_server_auth
+	url = https://github.com/4top-of-fisa/paydeuk_server_auth.git
+[submodule "paydeuk_api_gateway"]
+	path = paydeuk_api_gateway
+	url = https://github.com/4top-of-fisa/api_gateway.git
+[submodule "paydeuk_server_card"]
+	path = paydeuk_server_card
+	url = https://github.com/4top-of-fisa/paydeuk_server_card.git
